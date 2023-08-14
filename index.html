@@ -1,85 +1,72 @@
 <!DOCTYPE html>
-<html>
 
-  <head>  
-		<title> Hello world ! </title>
-        <title>My Beautiful Page</title>
-        <link rel="icon" href="favicon.ico" type="image/x-icon"/>
-        <h1>This is a h1 Heading</h1>
-        
-        <h2>This is a h2 Heading</h2>
-        
-        <h3>This is a h3 Heading</h3>
-        
-        <h4>This is a h4 Heading</h4>
-        
-        <h5>This is a h5 Heading</h5>
-        
-        <h6>This is a h6 Heading</h6>
-        This is a <del>deleted</del> tag testx
+<head>
+  
+    <title>My Portfolio</title>
+    <img src="./src/img1.webp" alt="MSI DRAGON"> 
+  
+</head>
 
-    </head>
+<body>
 
-
-    <textarea name="message" cols="30" rows="20">
-      Welcome to GoMyCode
-      baby girl 
-      hhhhhhhhhhhhhh
-  </textarea>
-    <body>
-      <h1> This is my first application ! </h1>
-			<!-- this is a comment -->
-            <h1>This is a h1 Heading</h1>
-            <div>
-              <h1>This is the first division</h1>
-            </div>
-        
-            <div>
-              <h1>This is the second division</h1>
-            </div>
-           	<table border="15">
-      <tr>
-        <th>HTML</th>
-        <th>CSS</th>
-        <th>JS</th>
-      </tr>
-      <!--hygdygfygzegfegfezgfegfegfefgezfgezfg-->
-      <tr>
-        <td>Paragraphs</td>
-        <td>Selectors</td>
-        <td>DOM</td>
-      </tr>
-      <tr>
-        <td>Tables</td>
-        <td>Styles</td>
-        <td>Elements</td>
-      </tr>
-    </table>
+<header>
+    <h1>Hafedh Ben Mansour </h1>
     <nav>
-      <a href="/html/> HTML </a>
-      <a href="/css/> ess </a>
-      <a href="/js/> JavaScript </a>
-      <a href="/jquery/> hmed </a>
-      </nav> 
-      <select>
-        <option value="GameTrack">vide .. </option>
-        <option value="WebTrack">Web Track</option>
-        <option value="AITrack">AI Track</option>
-        <option value="GameTrack">Game Track</option>
-        <option value="DataScienceTrack">Data Science Track</option>
-        
-      </select>
+        <ul>
+            <ol><a href="#about">About</a></il>
+            <ol><a href="#projects">Projects</a></il>
+            <ol><a href="#contact">Contact</a></il>
+        </ul>
+    </nav>
+</header>
 
+<video width="320" height="150" autoplay controls >
+  <source src="https://youtu.be/BHwFYEwOilM" type="video.mp4"/>
+  check the vidieo extension 
+</video>
 
+<main>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Welcome to my portfolio ! I'm passionate about web development...</p>
+    </section>
 
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li><a href="project1.html">Project 1</a></li>
+            <li><a href="project2.css">Project 2</a></li>
+            <li><a href="project2.js">Project 3</a></li>
+        </ul>
+    </section>
 
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <br>
+            <label for="password">password : </label>
+            <input type="password" name="password"/>
+            <br/>
+            <br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="8" required>TEXT ME PLEASE  </textarea>
+            <br>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </section> 
+</main>
 
+<footer>
+    <p> 2023 My Portfolio</p>
+</footer>
 
-
-
-
-
-
-
-  </body>
-</html> 
+</body>
+</html>
