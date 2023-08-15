@@ -1,0 +1,112 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+   /* box-shadow: 0 2px 4px rgba(98, 97, 97, 0.7); /* Add shadow to sections */
+}
+
+/* Apply a background color to the body */
+body {
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header section */
+header {
+    background-color: #4d4a4a;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    
+}
+
+nav a:hover {
+    border: 2px red; /* border red */
+    padding:10px; /* surface of the border */
+    border-radius: 50px; /* edge of the border */
+    background-color: red; /* background red of the surface */
+
+}
+
+/* Style the navigation links */
+nav ul {
+    list-style: inline; /* Display the list items in a line */
+}
+
+nav ul li {
+    display: inline; /* Display the list items horizontally */
+    margin-right: 20px; /* Add space between list items */
+    
+}
+
+
+
+nav ul li a {
+    color: white; /* Set link color to white */
+    text-decoration: none; /* Remove underline from links */
+    margin: 300px ;
+}
+
+/* Style the about, projects, and contact sections */
+section {
+    padding: 2em; /* Add padding inside sections */
+    margin: 2em 0; /* Add margin above and below sections */
+    background-color: rgb(207, 196, 196);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(98, 97, 97, 0.7); /* Add shadow to sections */
+}
+
+/* Style the video container to center the video */
+video {
+    max-width: 100%; /* Set maximum video width to its original size */
+    display: block; /* Display the video as a block element */
+    margin-top: 100px; /* Center the video verticaly */
+    margin-left: 600px; /*centre the video horizontaly */
+}
+
+
+/* Style the footer */
+footer {
+    text-align: center;
+    padding: 1em 0; 
+    background-color: #333; 
+    color: white;
+}
+
+/* Additional styling for form elements */
+form {
+    max-width: 400px; /* Set maximum width for the form */
+    margin: 0 auto; /* Center the form horizontally */
+}
+
+label {
+    display: block; /* Display labels as block elements */
+    margin-bottom: 5px; /* Add space below labels */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 100%; /* Set input and textarea width to 100% */
+    padding: 10px;
+    margin-bottom: 10px; /* Add space below input fields */
+    border: 1px solid #ccc; /* Add border to input fields */
+    border-radius: 4px; /* Add rounded corners to input fields */
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px; /* Add padding to submit button */
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Additional

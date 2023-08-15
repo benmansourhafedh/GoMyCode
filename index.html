@@ -1,71 +1,111 @@
 <!DOCTYPE html>
+<!-- This is the doctype declaration, indicating that this is an HTML5 document. -->
 
 <head>
-  
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- This line links an external CSS stylesheet located in the "css" directory. -->
+
     <title>My Portfolio</title>
-    <img src="./src/img1.webp" alt="MSI DRAGON"> 
-  
+    <!-- This sets the title of the webpage, which appears in the browser's title bar or tab. -->
 </head>
 
 <body>
+    <!-- This is the beginning of the body section of the HTML document. -->
 
 <header>
-    <h1>Hafedh Ben Mansour </h1>
+  <img src="./assets/img1.webp" width="50%" height="50%"  alt="MSI DRAGON">
+  <!-- This line includes an image with a specified width, height, and alt text. -->
+
+    <h1 id="red">Hafedh Ben Mansour </h1>
+    <!-- This is a level 1 heading (h1) with an "id" attribute of "red." -->
+
     <nav>
+        <!-- This is a navigation section containing a list of links. -->
         <ul>
-            <ol><a href="#about">About</a></il>
-            <ol><a href="#projects">Projects</a></il>
-            <ol><a href="#contact">Contact</a></il>
+            <!-- This is an unordered list (ul) containing navigation items. -->
+            <li><a href="#about">About</a></li>
+            <!-- This is a list item (li) containing a link (a) to the "about" section. -->
+            <li><a href="#projects">Projects</a></li>
+            <!-- This is a list item (li) containing a link (a) to the "projects" section. -->
+            <li><a href="#contact">Contact</a></li>
+            <!-- This is a list item (li) containing a link (a) to the "contact" section. -->
         </ul>
     </nav>
 </header>
 
 <video width="320" height="150" autoplay controls >
-  <source src="https://youtu.be/BHwFYEwOilM" type="video.mp4"/>
-  check the vidieo extension 
+  <source src="https://youtu.be/BHwFYEwOilM" type="video/mp4"/>
+  <!-- This line includes a video with specified attributes like width, height, autoplay, and controls. -->
+  <!-- It also contains a source element with the video URL and type. -->
+  check the video extension
+  <!-- This text will be displayed if the video cannot be played. -->
 </video>
 
     <section id="about">
+        <!-- This is a section with an "id" attribute of "about." -->
         <h2>About Me</h2>
-        <p>Welcome to my portfolio ! I'm passionate about web development...</p>
+        <!-- This is a level 2 heading (h2) indicating the "About Me" section. -->
+        <p>Welcome to my portfolio! I'm passionate about web development...</p>
+        <!-- This is a paragraph describing the purpose of the portfolio. -->
     </section>
 
     <section id="projects">
+        <!-- This is a section with an "id" attribute of "projects." -->
         <h2>Projects</h2>
+        <!-- This is a level 2 heading (h2) indicating the "Projects" section. -->
         <ul>
+            <!-- This is an unordered list (ul) containing project links. -->
             <li><a href="project1.html">Project 1</a></li>
+            <!-- This is a list item (li) containing a link (a) to "project1.html." -->
             <li><a href="project2.css">Project 2</a></li>
+            <!-- This is a list item (li) containing a link (a) to "project2.css." -->
             <li><a href="project2.js">Project 3</a></li>
+            <!-- This is a list item (li) containing a link (a) to "project2.js." -->
         </ul>
     </section>
+    <p>visit me<a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"> This My Gmail</a> if you want to send me somthing</p>
 
     <section id="contact">
+        <!-- This is a section with an "id" attribute of "contact." -->
         <h2>Contact Me</h2>
+        <!-- This is a level 2 heading (h2) indicating the "Contact Me" section. -->
         <form action="submit_form.php" method="post">
+            <!-- This is a form element with an "action" attribute for form submission and "method" attribute as "post." -->
             <label for="name">Name:</label>
+            <!-- This is a label for the input field where users will input their name. -->
             <input type="text" id="name" name="name" required>
+            <!-- This is a text input field for the user's name with the "id," "name," and "required" attributes. -->
             <br>
             <br>
             <label for="email">Email:</label>
+            <!-- This is a label for the input field where users will input their email. -->
             <input type="email" id="email" name="email" required>
+            <!-- This is an email input field with the "id," "name," and "required" attributes. -->
             <br>
             <br>
-            <label for="password">password : </label>
+            <label for="password">Password:</label>
+            <!-- This is a label for the input field where users will input their password. -->
             <input type="password" name="password"/>
+            <!-- This is a password input field with the "name" attribute. -->
             <br/>
             <br>
             <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="8" required>TEXT ME PLEASE  </textarea>
+            <!-- This is a label for the textarea where users will input their message. -->
+            <textarea id="message" name="message" rows="8" required>TEXT ME PLEASE</textarea>
+            <!-- This is a textarea input field for the user's message with the "id," "name," "rows," and "required" attributes. -->
             <br>
             <br>
             <input type="submit" value="Submit">
+            <!-- This is a submit button for the form. -->
         </form>
     </section> 
 
 
-<footer>
-    <p> 2023 My Portfolio</p>
-</footer>
+    <footer>
+        <!-- This is the footer section of the webpage. -->
+        <p>2023 My Portfolio</p>
+        <!-- This is a paragraph indicating the year and ownership of the portfolio. -->
+    </footer>
 
 </body>
 </html>
