@@ -1,7 +1,7 @@
 /* Reset default margin and padding for all elements */
 * {
-    margin: 10;
-    padding: 10;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
    /* box-shadow: 0 2px 4px rgba(98, 97, 97, 0.7); /* Add shadow to sections */
 }
@@ -23,7 +23,7 @@ header {
 
 nav a:hover {
     border: 2px red; /* border red */
-    padding:10px; /* surface of the border */
+    padding:1px; /* surface of the border */
     border-radius: 50px; /* edge of the border */
     background-color: red; /* background red of the surface */
 
@@ -45,7 +45,7 @@ nav ul li {
 nav ul li a {
     color: white; /* Set link color to white */
     text-decoration: none; /* Remove underline from links */
-    margin: 300px ;
+    margin: 20% ;
 }
 
 /* Style the about, projects, and contact sections */
